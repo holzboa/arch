@@ -163,6 +163,8 @@ menulibre
 mugshot
 telegram-desktop
 simplescreenrecorder
+iftop
+iotop
 )
 
 count=0

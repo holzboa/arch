@@ -1,0 +1,19 @@
+# Zathura configuration file
+# See man `man zathurarc'
+set adjust-open "width"
+set save_position
+set selection-clipboard clipboard
+set render-loading "false"
+set scroll-step 100
+
+#zoom settings
+set zoom-min 10
+
+
+unmap f
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen
+map p print
+map i recolor
+map [fullscreen] i recolor
+map [fullscreen] p print

@@ -51,7 +51,6 @@ lightdm
 lightdm-gtk-greeter
 xfce4
 xfce4-goodies
-mint-backgrounds-uma
 )
 
 count=0
@@ -68,11 +67,11 @@ tput setaf 6;echo "#############################################################
 echo "Copying all files and folders from /etc/skel to ~"
 echo "################################################################"
 echo;tput sgr0
-cp -Rf ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S)
-cp -arf /etc/skel/. ~
+#cp -Rf ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S)
+#cp -arf /etc/skel/. ~
 
 tput setaf 5;echo "################################################################"
-echo "Enabling sddm as display manager"
+echo "Enabling display manager"
 echo "################################################################"
 echo;tput sgr0
 sudo systemctl enable lightdm.service -f
@@ -81,7 +80,7 @@ tput setaf 2;echo "#############################################################
 echo "Removing packages we do not want"
 echo "################################################################"
 echo;tput sgr0
-sudo pacman -R xfce4-artwork --noconfirm
+#sudo pacman -R xfce4-artwork --noconfirm
 
 tput setaf 7;echo "################################################################"
 echo "You now have a very minimal functional desktop"

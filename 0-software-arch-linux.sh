@@ -7,6 +7,7 @@
 ###############################################################################
 
 sudo reflector --sort rate --save /etc/pacman.d/mirrorlist
+sudo eos-rankmirrors --sort rate
 sudo pacman -Syu
 
 func_install() {

@@ -136,22 +136,22 @@ alias clhead='curl -D - -so /dev/null'  # see only response headers from a get r
 
 
 #####################################
-###  BASH aliases for youtube-dl  ###
+###  BASH aliases for yt-dlp  ###
 #####################################
-# Name: youtube-dl
-# Description: aliases for youtube-dl
+# Name: yt-dlp
+# Description: aliases for yt-dlp
 
-alias yta-aac="youtube-dl --extract-audio --audio-format aac "
-alias yta-best="youtube-dl --extract-audio --audio-format best "
-alias yta-flac="youtube-dl --extract-audio --audio-format flac "
-alias yta-m4a="youtube-dl --extract-audio --audio-format m4a "
-alias yta-mp3="youtube-dl --extract-audio --audio-format mp3 "
-alias yta-opus="youtube-dl --extract-audio --audio-format opus "
-alias yta-vorbis="youtube-dl --extract-audio --audio-format vorbis "
-alias yta-wav="youtube-dl --extract-audio --audio-format wav "
-alias ytv-best="youtube-dl -f bestvideo+bestaudio "
+alias yta-aac="yt-dlp --extract-audio --audio-format aac "
+alias yta-best="yt-dlp --extract-audio --audio-format best "
+alias yta-flac="yt-dlp --extract-audio --audio-format flac "
+alias yta-m4a="yt-dlp --extract-audio --audio-format m4a "
+alias yta-mp3="yt-dlp --extract-audio --audio-format mp3 "
+alias yta-opus="yt-dlp --extract-audio --audio-format opus "
+alias yta-vorbis="yt-dlp --extract-audio --audio-format vorbis "
+alias yta-wav="yt-dlp --extract-audio --audio-format wav "
+alias ytv-best="yt-dlp -f bestvideo+bestaudio "
 
-alias ytv='youtube-dl -f "bestvideo[height<=720][ext=mp4]+bestaudio[ext=m4a]" -i -c --download-archive youtube.txt -o "%(title)s.%(ext)s"'
+alias ytv='yt-dlp -f "bestvideo[height<=720][ext=mp4]+bestaudio[ext=m4a]" -i -c --download-archive youtube.txt -o "%(title)s.%(ext)s"'
 
 alias sr='sudo shutdown -r now'
 alias ssn='sudo shutdown now'

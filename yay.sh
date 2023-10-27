@@ -22,7 +22,7 @@ yay -S --needed flacon ios-mount-git ipscan jdownloader2 --noconfirm
 yay -S --needed kodi-addon-pvr-iptvsimple koreader-bin losslesscut-bin --noconfirm
 yay -S --needed luckybackup menulibre mocp-themes-git mp3check --noconfirm 
 yay -S --needed mp3directcut mp3gain mugshot nerd-fonts-hack nomacs onlyoffice-bin --noconfirm 
-yay -S --needed peaclock puddletag rofi-greenclip rpi-imager --noconfirm 
+yay -S --needed peaclock puddletag pycp rofi-greenclip rpi-imager --noconfirm 
 yay -S --needed stacer-bin subliminal tenacity --noconfirm
 yay -S --needed topgrade-bin usbtop ventoy-bin vlc-wayland-git zram-swap-git  --noconfirm
 #yay -S --needed thunar-custom-actions --noconfirm

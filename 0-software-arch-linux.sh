@@ -6,7 +6,7 @@
 #
 ###############################################################################
 
-sudo reflector --sort rate --country 'Germany,Austria,Czechia' --protocol https --save /etc/pacman.d/mirrorlist
+sudo reflector --sort age --country 'Germany,Austria,Czechia,Hungary' --protocol https --save /etc/pacman.d/mirrorlist
 sudo eos-rankmirrors --sort rate
 sudo pacman -S archlinux-keyring endeavouros-keyring --noconfirm
 sudo pacman -Syu --noconfirm

@@ -6,6 +6,8 @@
 #
 ###############################################################################
 
+sudo pacman -Syu
+
 func_install() {
 	if pacman -Qi $1 &> /dev/null; then
 		tput setaf 2

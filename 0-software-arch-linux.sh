@@ -75,7 +75,7 @@ iftop
 inxi
 iotop
 jre11-openjdk-headless
-k3b
+#k3b
 kcron
 kdeconnect
 kio-admin
@@ -123,8 +123,8 @@ ueberzug
 unzip
 vnstat
 wget
-wine-mono
-winetricks
+#wine-mono
+#winetricks
 wol
 xed
 xsane

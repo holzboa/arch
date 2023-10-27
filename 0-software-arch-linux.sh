@@ -71,8 +71,10 @@ hunspell
 hunspell-de
 hwinfo
 hyphen-de
+#i3
 iftop
 inxi
+#eos-settings-i3wm
 iotop
 jre11-openjdk-headless
 #k3b

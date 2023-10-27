@@ -63,19 +63,13 @@ gnome-disk-utility
 gparted
 gpg-crypter
 gping
-handbrake
 highlight
 hplip
 htop
-hunspell
-hunspell-de
 hwinfo
-hyphen-de
 #i3
-iftop
 inxi
 #eos-settings-i3wm
-iotop
 jre11-openjdk-headless
 #k3b
 kcron
@@ -95,8 +89,6 @@ micro
 mlocate
 moc
 most
-mpv
-mythes-de
 nano
 nano-syntax-highlighting
 neofetch
@@ -107,17 +99,14 @@ pacman-contrib
 perl-image-exiftool
 python-chardet
 pv
-quodlibet
 ranger
 ripgrep
 rofi
 sniffnet
 speedtest-cli
-sshfs
 terminus-font
 testdisk
 the_silver_searcher
-tldr
 transmission-cli
 tree
 ttf-sourcecodepro-nerd
@@ -198,8 +187,9 @@ done
 func_category Multimedia
 
 list=(
-vlc
+handbrake
 mpv
+quodlibet
 yt-dlp
 vorbis-tools
 vorbisgain
@@ -217,6 +207,10 @@ done
 func_category Office
 
 list=(
+hunspell
+hunspell-de
+hyphen-de
+mythes-de
 zathura
 zathura-cb
 zathura-pdf-poppler
@@ -235,20 +229,12 @@ func_category System
 
 list=(
 dconf-editor
-arc-gtk-theme
-htop
-conky
-gparted
 iftop
 iotop
 xdg-user-dirs
 xdg-user-dirs-gtk
 tldr
 sshfs
-man-pages-de
-hunspell-de
-hyphen-de
-mythes-de
 expac
 binutils
 bat

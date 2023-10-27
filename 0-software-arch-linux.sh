@@ -8,7 +8,8 @@
 
 sudo reflector --sort rate --country 'Germany,Austria,Czechia' --protocol https --save /etc/pacman.d/mirrorlist
 sudo eos-rankmirrors --sort rate
-sudo pacman -Syu --noconfirm --needed
+sudo pacman -S archlinux-keyring endeavouros-keyring --noconfirm
+sudo pacman -Syu --noconfirm
 
 func_install() {
 	if pacman -Qi $1 &> /dev/null; then

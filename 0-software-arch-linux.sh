@@ -6,9 +6,9 @@
 #
 ###############################################################################
 
-sudo reflector --sort rate --country Germany --country Austria --country Czechia --protocol https --save /etc/pacman.d/mirrorlist
+sudo reflector --sort rate --country 'Germany,Austria,Czechia' --protocol https --save /etc/pacman.d/mirrorlist
 sudo eos-rankmirrors --sort rate
-sudo pacman -Syu
+sudo pacman -Syu --noconfirm --needed
 
 func_install() {
 	if pacman -Qi $1 &> /dev/null; then

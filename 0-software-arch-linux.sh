@@ -53,7 +53,6 @@ bat
 calibre
 cantata
 conky
-devede
 duf
 engrampa
 ethtool
@@ -76,11 +75,6 @@ hwinfo
 inxi
 #eos-settings-i3wm
 jre11-openjdk-headless
-#k3b
-kcron
-kdeconnect
-kio-admin
-kio-fuse
 less
 libcaca
 linssid
@@ -94,8 +88,6 @@ micro
 mlocate
 moc
 most
-nano
-nano-syntax-highlighting
 neofetch
 otf-opendyslexic-nerd
 p7zip
@@ -107,7 +99,6 @@ pv
 ranger
 ripgrep
 rofi
-sniffnet
 speedtest-cli
 terminus-font
 testdisk
@@ -175,6 +166,7 @@ list=(
 firefox
 firefox-i18n-de
 linssid
+sniffnet
 qbittorrent
 thunderbird
 thunderbird-i18n-de
@@ -195,6 +187,7 @@ list=(
 handbrake
 mpv
 quodlibet
+devede
 yt-dlp
 vorbis-tools
 vorbisgain

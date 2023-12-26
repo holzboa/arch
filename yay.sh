@@ -18,7 +18,7 @@
  
 yay -S --needed brave-bin bashmount dragon-drop etcher-bin ios-mount-git ipscan jdownloader2 kora-icon-theme nerd-fonts-hack onlyoffice-bin topgrade-bin usbtop ventoy-bin --noconfirm 
 yay -S --needed flacon vlc-wayland-git stacer-bin create_ap tenacity --noconfirm
-#yay -S --needed kde-servicemenus-flacconvert kde-servicemenus-imagetools kde-servicemenus-pdf kde-servicemenus-thunderbird-attachment kwin-effects-burn-my-windows-git --noconfirm
+#yay -S --needed k3b kcron kdeconnect kio-admin kio-fuse kde-servicemenus-pdf kde-servicemenus-thunderbird-attachment kwin-effects-burn-my-windows-git --noconfirm
 #yay -S --needed kodi-addon-pvr-iptvsimple  koreader-bin losslesscut-bin --noconfirm
 #yay -S --needed luckybackup menulibre mocp-themes-git mp3check --noconfirm 
 #yay -S --needed mp3directcut mp3gain mugshot nomacs  --noconfirm 

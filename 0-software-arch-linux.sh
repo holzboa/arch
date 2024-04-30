@@ -43,7 +43,6 @@ func_category() {
 func_category Accessories
 
 list=(
-akm
 arp-scan
 atool
 bandwhich
@@ -57,24 +56,19 @@ duf
 engrampa
 ethtool
 exfat-utils
+eza
 fatsort
 feh
-ffmpegthumbnailer
 firewalld
 fzf
+gdu
 git
 gnome-disk-utility
 gparted
 gpg-crypter
-gping
 highlight
 hplip
 htop
-hwinfo
-#i3
-inxi
-#eos-settings-i3wm
-jre11-openjdk-headless
 less
 libcaca
 linssid
@@ -88,10 +82,10 @@ micro
 mlocate
 moc
 most
+fastfetch
 neofetch
 otf-opendyslexic-nerd
 p7zip
-packagekit-qt5
 pacman-contrib
 perl-image-exiftool
 python-chardet
@@ -110,15 +104,13 @@ ueberzug
 unzip
 vnstat
 wget
-#wine-mono
-#winetricks
+wine-mono
+winetricks
 wol
 xed
 xsane
 xsel
-yay
 zenity
-zoxide
 )
 
 count=0
@@ -166,7 +158,6 @@ list=(
 firefox
 firefox-i18n-de
 linssid
-sniffnet
 qbittorrent
 thunderbird
 thunderbird-i18n-de
@@ -187,7 +178,6 @@ list=(
 handbrake
 mpv
 quodlibet
-devede
 yt-dlp
 vorbis-tools
 vorbisgain
